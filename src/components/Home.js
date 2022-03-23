@@ -61,4 +61,8 @@ export default Home;
 
 const Container = styled.div`
   height: 100 vh;
+
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  height: 100vh;
 `;
